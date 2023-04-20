@@ -1479,8 +1479,9 @@ section {
 
 .contact .info .open-hours,
 .contact .info .email,
+.contact .info .address,
 .contact .info .phone {
-  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .contact .php-email-form {
@@ -1618,7 +1619,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 300;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1744,3 +1745,4 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
