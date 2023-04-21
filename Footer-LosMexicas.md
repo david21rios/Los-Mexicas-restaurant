@@ -15,6 +15,40 @@
 
     Servicio de programa de lealtad: Para nuestros clientes habituales, ofrecemos un programa de lealtad donde pueden ganar recompensas y descuentos especiales en su comida.
 
+# Términos de Servicio
+
+Bienvenidos a Los Mexicas. Los siguientes términos y condiciones rigen el uso de nuestro servicio de restaurante. Por favor, lea cuidadosamente estos Términos antes de hacer una reserva o pedido a través de nuestro Servicio.
+
+    Aceptación de los Términos
+
+Al acceder o utilizar nuestro Servicio, usted acepta estos Términos en su totalidad. Si no está de acuerdo con estos Términos, no utilice nuestro Servicio.
+
+    Cambios en los Términos
+
+Nos reservamos el derecho de actualizar o cambiar estos Términos en cualquier momento y sin previo aviso. Cualquier cambio en los Términos será efectivo inmediatamente después de la publicación de los Términos actualizados en nuestro sitio web. Usted está obligado por los Términos actualizados al acceder o utilizar nuestro Servicio después de la publicación de los Términos actualizados.
+
+    Reservas y Pedidos
+
+Los clientes pueden hacer reservas o pedidos a través de nuestro sitio web o de forma presencial en el restaurante. Para hacer una reserva, deberá proporcionar información precisa y completa, incluyendo el número de personas, la fecha y la hora de la reserva. Para hacer un pedido, deberá proporcionar información precisa y completa sobre los productos que desea adquirir.
+
+    Precios y Pagos
+
+Los precios de nuestros productos están sujetos a cambios sin previo aviso. Nos reservamos el derecho de modificar o discontinuar cualquier producto en cualquier momento. Nos esforzamos por asegurarnos de que los precios mostrados en nuestro sitio web sean precisos, pero en caso de errores de precios, nos reservamos el derecho de cancelar cualquier pedido realizado con precios incorrectos.
+
+    Propiedad Intelectual
+
+El contenido de nuestro sitio web, incluyendo textos, imágenes, gráficos, logotipos y software, está protegido por leyes de propiedad intelectual y no puede ser utilizado sin nuestro permiso expreso por escrito.
+
+    Limitación de Responsabilidad
+
+En ningún caso seremos responsables por daños directos, indirectos, especiales, incidentales o consecuentes, incluyendo pero no limitándose a la pérdida de beneficios o ingresos, que surjan del uso de nuestro Servicio.
+
+    Ley Aplicable y Jurisdicción
+
+Estos Términos se regirán e interpretarán de acuerdo con las leyes del país en el que se encuentra el restaurante Los Mexicas. Usted acepta someterse a la jurisdicción exclusiva de los tribunales del país en el que se encuentra el restaurante Los Mexicas para cualquier disputa que surja de o en relación con estos Términos.
+
+Si tiene alguna pregunta o comentario sobre estos Términos, no dude en contactarnos. Gracias por elegir Los Mexicas.
+
 # Privacy Policy
 
 En [Nombre del restaurante] nos comprometemos a proteger la privacidad de nuestros clientes y visitantes en línea. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos su información personal. Al utilizar nuestro sitio web o nuestros servicios, usted acepta esta política de privacidad.
