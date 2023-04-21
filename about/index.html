@@ -93,10 +93,10 @@
 
     </div>
   </header><!-- End Header -->
-  <br>
-  <br>
-  <main id="main" >
 
+  <main id="main" >
+<br>
+<br>
 <br>
 <section class="section2" style="font-family: 'Open Sans', sans-serif; font-size: 0.875rem;">
   <div class="title">
@@ -110,7 +110,7 @@
     <article class="about-img">
       <img id="img-about" src="./history.jpg" alt="imagen1">
     </article>
-    <article class="about">
+    <article class="about2">
       <!-- btn container -->
       <div class="btn-container">
         <button class="tab-btn active" data-id="history">Misión/Visión</button>
@@ -141,29 +141,15 @@
         <div class="content" id="goals">
           <p><span>Objetivo general:</span></p>
           <p>Establecer una empresa de comida mexicana o restaurante mexicano en Europa que ofrezca una experiencia auténtica y memorable a los clientes, al tiempo que se convierte en una referencia en la difusión de la cultura y la gastronomía mexicana.</p>
-          <p><span>Objetivos específicos:</span></p>
-          <ul>
-            <li>Ofrecer platillos auténticos y sabrosos que reflejen la cultura mexicana.</li>
-            <li>Utilizar ingredientes frescos y de alta calidad en la preparación de los platillos.</li>
-            <li>Brindar un ambiente auténtico y acogedor para los clientes.</li>
-            <li>Proporcionar un servicio amable y eficiente que garantice la satisfacción de los clientes.</li>
-            <li>Establecer relaciones comerciales sólidas con proveedores locales de ingredientes de alta calidad.</li>
-            <li>Implementar una estrategia de marketing efectiva para aumentar la visibilidad de la empresa y atraer a más clientes.</li>
-            <li>Fomentar la educación sobre la cultura y la gastronomía mexicana a través de la promoción de eventos culturales y actividades educativas.</li>
-            <li>Ampliar la oferta de platillos y bebidas típicas mexicanas para ofrecer una experiencia completa y variada a los clientes.</li>
-            <li>Establecer alianzas con otros restaurantes mexicanos en Europa para fomentar la colaboración y el intercambio cultural.</li>
-            <li>Asegurar la rentabilidad de la empresa a largo plazo mediante una gestión financiera efectiva y una estrategia de crecimiento sostenible.</li>
-          </ul>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalGoals">
+            Objetivos específicos
+          </button>          
         </div>
         <!-- end of single item -->
       </div>
     </article>
   </div>
 </section>
-
-<br>
-    <!-- ======= Menu Section ======= -->
-    
 
   </main><!-- End #main -->
 
@@ -240,9 +226,43 @@
     </div>
   </footer><!-- End Footer -->
 
+    <!-- DIVs para las ventanas modal que se tengan
+    ================================================== -->
+    <div class="modal" modal-dialog-scrollable id="modalGoals" style="color: black;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title"><b>Objetivos específicos</b></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="objetivos">
+              <ul>
+                <li>Ofrecer platillos auténticos y sabrosos que reflejen la cultura mexicana.</li>
+                <li>Utilizar ingredientes frescos y de alta calidad en la preparación de los platillos.</li>
+                <li>Brindar un ambiente auténtico y acogedor para los clientes.</li>
+                <li>Proporcionar un servicio amable y eficiente que garantice la satisfacción de los clientes.</li>
+                <li>Establecer relaciones comerciales sólidas con proveedores locales de ingredientes de alta calidad.</li>
+                <li>Implementar una estrategia de marketing efectiva para aumentar la visibilidad de la empresa y atraer a más clientes.</li>
+                <li>Fomentar la educación sobre la cultura y la gastronomía mexicana a través de la promoción de eventos culturales y actividades educativas.</li>
+                <li>Ampliar la oferta de platillos y bebidas típicas mexicanas para ofrecer una experiencia completa y variada a los clientes.</li>
+                <li>Establecer alianzas con otros restaurantes mexicanos en Europa para fomentar la colaboración y el intercambio cultural.</li>
+                <li>Asegurar la rentabilidad de la empresa a largo plazo mediante una gestión financiera efectiva y una estrategia de crecimiento sostenible.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- JavaScript
+    ================================================== -->
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/aos/aos.js"></script>
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

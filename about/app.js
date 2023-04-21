@@ -1,4 +1,4 @@
-const about = document.querySelector(".about");
+const about = document.querySelector(".about2");
 const btns = document.querySelectorAll(".tab-btn");
 const articles = document.querySelectorAll(".content");
 const img = document.getElementById("img-about");
