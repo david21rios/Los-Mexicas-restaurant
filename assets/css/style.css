@@ -165,7 +165,8 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #cda45e;
+  color: rgba(169, 125, 2, 0.853);
+
 }
 
 #topbar .languages ul a {
@@ -187,7 +188,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
+  background: rgba(169, 125, 2, 0.853);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -197,7 +198,7 @@ h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(169, 125, 2, 0.853);
   border-bottom: 1px solid #37332a;
 }
 
@@ -293,7 +294,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d9ba85;
+  color: #281a00;
 }
 
 .navbar .dropdown ul {
@@ -798,7 +799,8 @@ section {
   z-index: 1;
   content: "";
   border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-top: 5px solid  rgba(169, 125, 2, 0.853);
+
   transition: 0.5s;
 }
 
@@ -846,7 +848,8 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: rgba(169, 125, 2, 0.853);
+
 }
 
 .about .content p:last-child {
@@ -930,7 +933,8 @@ section {
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color: rgba(169, 125, 2, 0.853);
+
 }
 
 .menu #menu-flters li:last-child {
@@ -978,7 +982,8 @@ section {
 }
 
 .menu .menu-content a:hover {
-  color: #cda45e;
+  color:rgba(169, 125, 2, 0.853);
+
 }
 
 .menu .menu-content span {
@@ -1026,7 +1031,7 @@ section {
 
 .specials .nav-link.active {
   color: #1a1814;
-  background: #cda45e;
+  background: rgba(169, 125, 2, 0.853);
   border-color: #cda45e;
 }
 
@@ -1454,7 +1459,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: rgba(169, 125, 2, 0.853);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1596,7 +1601,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: rgba(169, 125, 2, 0.853);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1647,7 +1652,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cda45e;
+  background: rgba(169, 125, 2, 0.853);
   color: #fff;
   text-decoration: none;
 }
@@ -1672,7 +1677,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #cda45e;
+  color: rgba(169, 125, 2, 0.853);
   font-size: 18px;
   line-height: 1;
 }
@@ -1695,7 +1700,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #cda45e;
+  color: rgba(169, 125, 2, 0.853);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1724,14 +1729,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #cda45e;
+  background: rgba(169, 125, 2, 0.853);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #d3af71;
+  background: rgba(169, 125, 2, 0.853);
 }
 
 #footer .copyright {
