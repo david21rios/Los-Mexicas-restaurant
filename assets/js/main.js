@@ -204,6 +204,37 @@
   });
 
   /**
+   * Menu-drink isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let menuContainer = select('.menu-drink-container');
+    if (menuContainer) {
+      let menuIsotope = new Isotope(menuContainer, {
+        itemSelector: '.menu-drink-item',
+        layoutMode: 'fitRows'
+      });
+
+      let menuFilters = select('#menu-drink-flters li', true);
+
+      on('click', '#menu-drink-flters li', function(e) {
+        e.preventDefault();
+        menuFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        menuIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        menuIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
    * Initiate glightbox 
    */
   const glightbox = GLightbox({
