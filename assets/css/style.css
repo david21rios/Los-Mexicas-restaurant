@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #ffbf00;
+  background: #ffd903;
   color: black;
 }
 .btn {
@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #ff7000;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #ffbf00;
+  color: #ffd903;
 }
 
 #topbar .contact-info i span {
@@ -165,7 +165,7 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #ffbf00;
+  color: #ffd903;
 
 }
 
@@ -509,7 +509,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #ffbf00;
+  color: #ffd903;
 }
 
 #hero h2 {
@@ -534,12 +534,12 @@ h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 2px solid #ffbf00;
+  border: 2px solid #ffd903;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #ffbf00;
+  background: #ffd903;
   color: #fff;
 }
 
@@ -550,7 +550,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffbf00 50%, rgba(255, 247, 0, 0.4) 52%);
+  background: radial-gradient(#ffd903 50%, rgba(255, 247, 0, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -591,7 +591,7 @@ h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #ffbf00;
+  border-left: 15px solid #ffd903;
   transform: scale(20);
 }
 
@@ -995,7 +995,7 @@ section {
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #ff7000;
+  color: #e26302;
 
 }
 
@@ -1011,7 +1011,7 @@ section {
   width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid #ffbf00;
+  border: 5px solid #ffd903;
 }
 
 .menu .menu-content {
@@ -1035,7 +1035,7 @@ section {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #ffbf00;
+  background: #ffd903;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -1049,7 +1049,7 @@ section {
 }
 
 .menu .menu-content span {
-  background: #ffbf00;
+  background: #ffd903;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -1063,6 +1063,24 @@ section {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: #000000;
+}
+#regresar{
+  margin: 3px;
+  padding: 0.375rem 0.75rem;
+  text-transform:uppercase ;
+  color: white;
+  display: inline-block;
+  background-color: #ff7000;
+  border: 2px solid white;
+  border-radius: 25px;
+  align-items: center;
+  cursor: pointer;
+}
+#regresar:hover{
+  color: black;
+  border: 4px solid black;
+
+
 }
 
 /*--------------------------------------------------------------
@@ -1108,7 +1126,7 @@ section {
   width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid #ffbf00;
+  border: 5px solid #ffd903;
 }
 
 .menu-drink .menu-drink-content {
@@ -1132,7 +1150,7 @@ section {
 
 .menu-drink .menu-drink-content a {
   padding-right: 10px;
-  background: #ffbf00;
+  background: #ffd903;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -1146,7 +1164,7 @@ section {
 }
 
 .menu-drink .menu-drink-content span {
-  background: #ffbf00;
+  background: #ffd903;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -1508,8 +1526,8 @@ section {
 --------------------------------------------------------------*/
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
+  border: 2px solid #000000;
+  border-bottom: 3px solid #000000;
 }
 
 .gallery .gallery-item img {
@@ -1519,7 +1537,6 @@ section {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
-
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
@@ -1767,8 +1784,8 @@ section {
 }
 
 #footer .footer-top {
-  background: #ffbf00;
-  border-top: 1px solid #ffbf00;
+  background: #ffd903;
+  border-top: 1px solid #ffd903;
   border-bottom: 1px solid #ff7000;
   padding: 60px 0 30px 0;
 }
@@ -1910,3 +1927,49 @@ section {
   color: #fff;
 }
 
+#modal1{
+  color: black;  
+}
+#modal1 .modal-content {
+  background-color:  #fff2cc;
+}
+#modal1 button, .btn-close {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+#modal1 button:hover {
+  background-color: #fa85b7;
+}
+
+
+#modal2{
+  color: #ffffff;  
+}
+#modal2 .modal-content {
+  background-color:  #000000;
+}
+
+#modal2 button, .btn-close {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+#modal2 button:hover {
+  background-color: #ff0000;
+}
+
+
+
+#modal3{
+  color: black;  
+}
+#modal3 .modal-content {
+  background-color:  #ffe135;
+}
+#modal3 button, .btn-close {
+  background-color: white;
+  border-radius: 15px;
+}
+#modal3 button:hover {
+  background-color: #fca049;
+}
