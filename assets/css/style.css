@@ -1355,12 +1355,15 @@ section {
   font-family: "Poppins", sans-serif;
   color: white;
 }
+.contact p{
+  color: white;
+}
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #f4f2f2;
+  color: #ffffff;
 }
 
 .contact .info .open-hours,
