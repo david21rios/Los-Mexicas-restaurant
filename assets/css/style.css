@@ -10,10 +10,14 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif;
   background: #ffd903;
+  color: black; */
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 8, 11, 0.75), rgba(5, 8, 11, 0.75)), url('fondo2.jpg')  no-repeat center center fixed;
+  background-size: cover;
   color: black;
-  background-image: url('img/fondo1.jpg');
 }
 
 .btn {
@@ -779,17 +783,22 @@ section {
 --------------------------------------------------------------*/
 .about2 {
   overflow: hidden;
+  background: rgba(5, 7, 12, 0.35);
+
 }
 
 .about2 .nav-tabs {
   border: 0;
+  background: rgba(102, 102, 101, 0.35);
+
 }
 
 .about2 .nav-link {
+  background: rgba(5, 7, 12, 0.35);
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
-  color: #000000;
+  color: #fdfdfd;
   border-radius: 0;
   border-right: 2px solid #000000;
   font-weight: 600;
@@ -818,15 +827,21 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #000000;
+  color: #fefefe;
+
 }
 
 .about2 .details p {
-  color: #000000;
+  color: #fffdfd;
+
+}
+.about2 h3{
+  color: white;
 }
 
 .about2 .details p:last-child {
   margin-bottom: 0;
+
 }
 
 @media (max-width: 992px) {
@@ -1199,17 +1214,19 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  background: rgba(5, 7, 12, 0.35);
 }
 
 .specials .nav-tabs {
   border: 0;
+  background: rgba(102, 102, 101, 0.35);
 }
 
 .specials .nav-link {
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
-  color: #000000;
+  color: #fffefe;
   border-radius: 0;
   border-right: 2px solid #000000;
   font-weight: 600;
@@ -1221,7 +1238,7 @@ section {
 }
 
 .specials .nav-link.active {
-  color: #1a1814;
+  color: #000000;
   background: #ff7000;
   border-color: #ff7000;
 }
@@ -1238,11 +1255,14 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #000000;
+  color: #fcfcfc;
 }
 
 .specials .details p {
-  color: #000000;
+  color: #fcfbfb;
+}
+.specials span {
+  color: #ffffff;
 }
 
 .specials .details p:last-child {
@@ -1260,14 +1280,21 @@ section {
 # Gallery
 --------------------------------------------------------------*/
 .gallery .gallery-item {
+  background: rgba(5, 7, 12, 0.35);
   overflow: hidden;
   border: 2px solid #000000;
   border-bottom: 3px solid #000000;
+
+}
+.gallery p{
+  color: white;
 }
 
 #gallery .carousel-inner {
   width: 100%;
   height: auto;
+  background: rgba(102, 102, 101, 0.35);
+
 }
 
 .gallery .gallery-item img {
@@ -1297,8 +1324,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact #contact {
+  background: rgba(102, 102, 101, 0.35);
+}
+
 .contact .info {
   width: 100%;
+  /* background: rgba(5, 7, 12, 0.35); */
 }
 
 .contact .info i {
@@ -1312,7 +1344,7 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .contact .info h4 {
@@ -1321,13 +1353,14 @@ section {
   font-weight: 500;
   margin-bottom: 5px;
   font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #000000;
+  color: #f4f2f2;
 }
 
 .contact .info .open-hours,
@@ -1448,17 +1481,21 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+#footerdown .copyright {
   background: #ff7000;
+}
+#footer {
+  /* background: #ff7000; */
   padding: 0 0 30px 0;
-  color: #000000;
+  color: #fffefe;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #ffd903;
-  border-top: 1px solid #ffd903;
-  border-bottom: 1px solid #ff7000;
+  /* background: linear-gradient(rgba(5, 8, 11, 0.75), rgba(5, 8, 11, 0.75)), url('fondo2.jpg')  no-repeat center center fixed; */
+  /* background: #ffd903; */
+  /* border-top: 1px solid #ffd903; */
+  /* border-bottom: 1px solid #ff7000; */
   padding: 60px 0 30px 0;
 }
 
@@ -1481,7 +1518,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Playfair Display", serif;
-  color: #110101;
+  color: #f1f1f1;
 }
 
 #footer .footer-top .social-links a {
@@ -1508,7 +1545,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #100101;
+  color: #fdfbfb;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1541,14 +1578,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #0e0101;
+  color: #ffffff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: white;
+  color: #ff7000;
 }
 
 #footer .footer-top .footer-newsletter form {
