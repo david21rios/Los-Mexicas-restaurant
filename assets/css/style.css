@@ -15,7 +15,7 @@ body {
   color: black; */
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 8, 11, 0.75), rgba(5, 8, 11, 0.75)), url('fondo2.jpg')  no-repeat center center fixed;
+  background: linear-gradient(rgba(5, 8, 11, 0.65), rgba(5, 8, 11, 0.65)), url('fondo2.jpg')  no-repeat center center fixed;
   background-size: cover;
   color: black;
 }
@@ -673,9 +673,9 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
+/* .section-bg {
   background-color: #1a1814;
-}
+} */
 
 .section-title {
   padding-bottom: 40px;
@@ -1016,7 +1016,7 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  color: #000000;
+  color: white;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -1025,7 +1025,7 @@ section {
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #e26302;
+  color: #ff6600;
 
 }
 
@@ -1039,9 +1039,9 @@ section {
 
 .menu .menu-img {
   width: 70px;
-  border-radius: 60%;
+  border-radius: 50%;
   float: left;
-  border: 5px solid #ffd903;
+  border: 5px solid transparent;
 }
 
 .menu .menu-content {
@@ -1053,38 +1053,38 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  /* content: "......................................................................" "...................................................................." "...................................................................."; */
   position: absolute;
   left: 20px;
   right: 0;
   top: -4px;
   z-index: 1;
-  color: black;
+  color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #ffd903;
+  /* background: #ffffff; */
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: black;
+  color: white;
   transition: 0.3s;
 }
 
 .menu .menu-content a:hover {
-  color:#ff7000;
+  color:#ff6600;
 
 }
 
 .menu .menu-content span {
-  background: #ffd903;
+  /* background: #ffd903; */
   position: relative;
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #ff7000;
+  color: #ff6600;
 }
 
 .menu .menu-ingredients {
@@ -1092,7 +1092,7 @@ section {
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #000000;
+  color: white;
 }
 #regresar{
   margin: 3px;
@@ -1131,7 +1131,7 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  color: #000000;
+  color: white;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -1140,7 +1140,7 @@ section {
 
 .menu-drink #menu-drink-flters li:hover,
 .menu-drink #menu-drink-flters li.filter-active {
-  color: #ff7000;
+  color: #ff6600;
 
 }
 
@@ -1156,7 +1156,7 @@ section {
   width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid #ffd903;
+  border: 5px solid transparent;
 }
 
 .menu-drink .menu-drink-content {
@@ -1168,7 +1168,7 @@ section {
 }
 
 .menu-drink .menu-drink-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  /* content: "                          " "...................................................................." "  "; */
   position: absolute;
   left: 20px;
   right: 0;
@@ -1180,26 +1180,26 @@ section {
 
 .menu-drink .menu-drink-content a {
   padding-right: 10px;
-  background: #ffd903;
+  /* background: #ffd903; */
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: black;
+  color: white;
   transition: 0.3s;
 }
 
 .menu-drink .menu-drink-content a:hover {
-  color:#ff7000;
+  color:#ff6600;
 
 }
 
 .menu-drink .menu-drink-content span {
-  background: #ffd903;
+  /* background: #ffd903; */
   position: relative;
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #ff7000;
+  color: #ff6600;
 }
 
 .menu-drink .menu-drink-ingredients {
@@ -1207,7 +1207,7 @@ section {
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #000000;
+  color: white;
 }
 /*--------------------------------------------------------------
 # Specials
@@ -1640,17 +1640,18 @@ section {
 }
 
 #modal1{
-  color: black;  
+  color: white;  
 }
 #modal1 .modal-content {
-  background-color:  #f2e3b8;
+  background-color:  #222922;
 }
 #modal1 button, .btn-close {
-  background-color: #ffffff;
+  color: black;
+  background-color: white;
   border-radius: 15px;
 }
 #modal1 button:hover {
-  background-color: #fa85b7;
+  background-color: red;
 }
 
 
@@ -1673,15 +1674,17 @@ section {
 
 
 #modal3{
-  color: black;  
+  color: white;  
 }
 #modal3 .modal-content {
-  background-color:  #ffe135;
+  background-color:  #222922;
 }
 #modal3 button, .btn-close {
+  color: black;
   background-color: white;
   border-radius: 15px;
 }
+
 #modal3 button:hover {
-  background-color: #fca049;
+  background-color: red;
 }
