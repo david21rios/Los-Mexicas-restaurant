@@ -29,8 +29,8 @@ Puedes ver una demostración del sitio web del restaurante [aquí](Link to the d
 No se requieren prerrequisitos adicionales más allá de un navegador web estándar.
 
 ## Autor
-- GitHub: [tu_usuario](https://github.com/tu_usuario)
-- LinkedIn: [Tu Nombre en LinkedIn](https://www.linkedin.com/in/tu_perfil/)
+- GitHub: [david21rios](https://github.com/david21rios)
+- LinkedIn: [David Rios](https://www.linkedin.com/in/davidriosl/)
 
 ## Contribución
 ¡Gracias por considerar contribuir a este proyecto! Si deseas contribuir, sigue estos pasos:
